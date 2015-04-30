@@ -1,0 +1,133 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+       body {
+        background-color: #436A95;
+        width: 100%;
+            height: 100%;
+            margin: 0px;
+            border: 0; 
+
+        }
+
+header {
+        background-color: #436A95;
+        width: 100%;
+    		height: 10em;
+}
+
+
+
+#map-canvas {
+  position: absolute;
+        top:5.5%;
+        left: 5%;
+        width: 90%;
+        height: 80%;
+        z-index: 1;
+      }
+
+      #mapcanvas {
+  position: absolute;
+        top:5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        z-index: 1;
+      }
+
+
+#main_name {
+
+position: absolute;
+            margin-left:1%;
+        color: #FFFFFF;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa;
+            font-family: helvetica-bold;
+            font-weight:bold;
+            font-size: 25vw;
+            letter-spacing: -3vw;
+
+
+        }
+
+  #mapit {
+
+position: absolute;
+left:34%;
+padding-top:6%;
+z-index: 2;
+
+
+    }
+
+
+        #subtitle {
+          display: table-cell;
+          float:left;
+          margin-top:23%;
+          margin-left:2.5%;
+            color: #FFFFFF;
+            background-color:#FFAA00;
+            padding-top: .9vw;
+            padding-bottom: 1.1vw;
+            padding-left:.7vw;
+            padding-right:.3vw;
+            font-family: helvetica-bold;
+            letter-spacing: 0.05vw;
+            font-size: 2.2vw;
+
+
+        }
+
+ #c {
+    position: absolute;
+    left: 0;
+    top: 0%;
+}
+
+ #legend {
+        font-family: Arial, sans-serif;
+        background: #e9e5dd;
+        color:#222222;
+        font-size:1.5em;
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid #000;
+      }
+
+footer {
+  width: 100%;
+  height: 9%;
+	margin:0;
+	background-color: #555555;
+  text-align:center;
+  color: #777777;
+  font-family: helvetica;
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+}
